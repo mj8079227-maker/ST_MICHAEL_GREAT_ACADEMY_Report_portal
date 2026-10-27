@@ -1,0 +1,32 @@
+{
+  "id": "/",
+  "name": "ST. MICHAEL GREAT ACADEMY – OFFICIAL RESULT PORTAL",
+  "short_name": "ST. MICHAEL",
+  "description": "Official student result portal for St. Michael Great Academy. Motto: Learning is fun.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#081326",
+  "theme_color": "#081326",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

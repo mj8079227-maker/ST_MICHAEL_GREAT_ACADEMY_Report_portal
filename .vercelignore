@@ -1,0 +1,12 @@
+android
+android/**
+*.apk
+*.zip
+*.zip.html
+scripts
+.git
+node_modules
+dist
+.cache
+.env
+.env.local
