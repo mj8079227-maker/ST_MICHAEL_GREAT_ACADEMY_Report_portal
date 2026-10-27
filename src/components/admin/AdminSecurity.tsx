@@ -341,32 +341,42 @@ export const AdminSecurity: React.FC<AdminSecurityProps> = ({
           </div>
         )}
 
-        {/* Vercel Permanent Activation Banner */}
+        {/* GitHub & Vercel Permanent Activation Banner */}
         <div className="mt-6 rounded-xl border border-emerald-500/40 bg-gradient-to-r from-emerald-950/60 via-[#061815] to-[#060e1d] p-5 shadow-lg">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
             <div>
               <div className="flex items-center gap-2">
                 <span className="flex h-2.5 w-2.5 rounded-full bg-emerald-400 animate-pulse" />
                 <span className="text-[11px] font-bold uppercase tracking-wider text-emerald-400">
-                  Permanent Hosting Activation (Forever Free)
+                  GitHub Connected & Permanent Vercel Ready
                 </span>
               </div>
               <h4 className="mt-1 text-base font-bold text-white">
-                Claim Deployment to Your Vercel Account
+                ST_MICHAEL_GREAT_ACADEMY_Report_portal on GitHub
               </h4>
               <p className="mt-1 text-xs text-slate-300 max-w-2xl leading-relaxed">
-                Click the button below while signed in to Vercel. It attaches this exact live application to your personal account so it runs permanently forever with zero expiration.
+                Your portal source code is fully uploaded to your official GitHub account (<code className="text-emerald-300 font-mono">mj8079227-maker</code>). Deploy directly to Vercel with 1 click to create a permanent, non-expiring website forever!
               </p>
             </div>
-            <div className="shrink-0">
+            <div className="shrink-0 flex flex-wrap items-center gap-2">
               <a
-                href="https://vercel.com/claim-deployment?code=a2ab912b-e107-4a13-9225-1ba911c430f2"
+                href="https://github.com/mj8079227-maker/ST_MICHAEL_GREAT_ACADEMY_Report_portal"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 rounded-xl bg-slate-800 border border-slate-600 px-4 py-3 text-xs font-bold text-white hover:bg-slate-700 active:scale-95 shadow transition"
+              >
+                <Github className="h-4 w-4 text-purple-400" />
+                <span>View on GitHub</span>
+                <ExternalLink className="h-3.5 w-3.5 text-slate-400" />
+              </a>
+              <a
+                href="https://vercel.com/new/clone?repository-url=https://github.com/mj8079227-maker/ST_MICHAEL_GREAT_ACADEMY_Report_portal"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-xl bg-emerald-500 px-5 py-3 text-xs font-bold text-slate-950 hover:bg-emerald-400 active:scale-95 shadow-md transition"
               >
                 <Globe className="h-4 w-4" />
-                <span>Claim on Vercel (Make Permanent)</span>
+                <span>1-Click Deploy to Vercel (Permanent)</span>
                 <ExternalLink className="h-3.5 w-3.5" />
               </a>
             </div>
